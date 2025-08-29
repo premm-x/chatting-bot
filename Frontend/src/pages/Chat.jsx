@@ -36,7 +36,7 @@ function Chat() {
 
       <div className="w-full max-w-2xl flex flex-col bg-white rounded-2xl shadow-lg overflow-hidden">
         
-        <div className="flex-1 overflow-y-auto p-4 space-y-3 max-h-[70vh]">
+        <div className={`flex-1 overflow-y-auto ${messages.length != 0 ? 'p-4' : ''}  space-y-3 max-h-[70vh]`}>
           {messages.map((msg, idx) => (
             <div
               key={idx}

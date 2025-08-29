@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Testing from "../src/pages/Testing"
 import Chat from "./pages/Chat"
+import Dashboard from "./pages/Dashboard"
 
 
 function App(){
@@ -11,7 +12,7 @@ function App(){
 
       <Routes>
         
-        <Route path="/" element={<Testing/>}  />
+        <Route path="/" element={<Dashboard/>}  />
         <Route path="/chatapp" element={<Chat />}  />
 
       </Routes>
