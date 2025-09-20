@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom"
-import Testing from "../src/pages/Testing"
 import Chat from "./pages/Chat"
 import Dashboard from "./pages/Dashboard"
 
