@@ -10,7 +10,7 @@ load_dotenv()
 app = FastAPI()
 
 origins = [
-    "http://localhost:5174",  # your frontend
+    "https://chatting-ai-frontend.onrender.com/",  # your frontend
 ]
 
 app.add_middleware(
